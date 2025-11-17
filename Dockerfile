@@ -23,8 +23,10 @@ RUN pip install --no-cache-dir -r pipfair-requirements.txt
 # copy the rest of your code
 COPY . /app
 
-# run as non-root
-RUN useradd -m appuser
+# run as non-root, but give them /app
+RUN useradd -m appuser \
+    && chown -R appuser:appuser /app
+
 USER appuser
 
 # Sliplane will hit this port
