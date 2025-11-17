@@ -1,0 +1,23 @@
+# ignore everything in temp
+app/data/temp/*
+
+# keep folder
+!app/data/temp/.gitkeep
+
+# whitelist only these files
+!app/data/temp/vehicles_stats_UOV_7days.gpkg
+!app/data/temp/vehicles_stats_UOV_3days.gpkg
+!app/data/temp/vehicles_stats_UOV_1day.gpkg
+!app/data/temp/vehicles_stats_RET_7days.gpkg
+!app/data/temp/vehicles_stats_RET_3days.gpkg
+!app/data/temp/vehicles_stats_RET_1day.gpkg
+!app/data/temp/vehicles_stats_HTM_7days.gpkg
+!app/data/temp/vehicles_stats_HTM_3days.gpkg
+!app/data/temp/vehicles_stats_HTM_1day.gpkg
+!app/data/temp/vehicles_stats_GVB_7days.gpkg
+!app/data/temp/vehicles_stats_GVB_3days.gpkg
+!app/data/temp/vehicles_stats_GVB_1days.gpkg
+!app/data/temp/full_cbs.gpkg
+!app/data/temp/full_cbs_utrecht.gpkg
+!app/data/temp/full_cbs_thehague.gpkg
+!app/data/temp/full_cbs_rotterdam2.gpkg
